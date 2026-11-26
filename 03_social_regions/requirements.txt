@@ -1,0 +1,10 @@
+# Загрузка данных и SQL
+pandas>=2.0
+openpyxl>=3.1      # чтение .xlsx
+xlrd>=2.0          # чтение старых .xls из Талдау
+# Анализ, модели, визуализация
+numpy>=1.24
+matplotlib>=3.6   # стиль seaborn-v0_8-whitegrid
+seaborn>=0.12
+scipy>=1.10
+scikit-learn>=1.2

@@ -1,0 +1,29 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Производные данные: пересоздаются скриптами src/build_db.py и src/run_queries.py
+data/regions_kz.db
+data/processed/
+
+# Исходные выгрузки (data/raw, ~5 МБ) храним в репозитории,
+# чтобы проект запускался без ручной выгрузки из Талдау.
+# Архив с shapefile не нужен — есть GeoJSON
+data/kaz_shp/
+
+# Секреты
+.env
+config.yaml
+secrets.txt
+
+# Системные файлы
+.DS_Store
+Thumbs.db
