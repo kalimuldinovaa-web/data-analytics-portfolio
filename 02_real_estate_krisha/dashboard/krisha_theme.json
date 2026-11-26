@@ -1,0 +1,28 @@
+{
+  "name": "Krisha Astana",
+  "dataColors": [
+    "#4C72B0",
+    "#DD8452",
+    "#55A868",
+    "#C44E52",
+    "#8172B3",
+    "#937860",
+    "#DA8BC3",
+    "#8C8C8C"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#4C72B0",
+  "good": "#55A868",
+  "neutral": "#E8C547",
+  "bad": "#C44E52",
+  "maximum": "#55A868",
+  "center": "#F3E79B",
+  "minimum": "#C44E52",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#252423" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#252423" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#605E5C" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#252423" }
+  }
+}

@@ -1,0 +1,18 @@
+# сбор данных
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.3
+
+# обработка и анализ
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1        # чтение xlsx БНС (индексы цен, инфляция)
+scipy>=1.13
+scikit-learn>=1.5
+
+# визуализация
+matplotlib>=3.8
+seaborn>=0.13
+
+# ноутбуки
+jupyter
